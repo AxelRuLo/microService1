@@ -8,7 +8,7 @@ const files = require("./routes/files")
 
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-// app.use("/api/pokemon",pokemones)
+app.use("/api/pokemon",pokemones)
 app.use("/api/calculadora",calculadora)
 app.use("/",files)
 
