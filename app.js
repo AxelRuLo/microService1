@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 const pokemones = require("./routes/pokemons")
 const calculadora = require("./routes/operations")
 // const files = require("./routes/files")
